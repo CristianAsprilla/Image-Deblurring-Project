@@ -17,6 +17,7 @@ def blur_image(image, A, B):
 # Read image
 # image = cv2.imread('./data/pumpkins.jpg')
 # image = cv2.imread('./data/butterflies.jpg')
+# image = cv2.imread('./data/origimage.jpg')
 image = cv2.imread('./data/Mona_Lisa.jpeg')
 mat_data = io.loadmat('./data/proj1data.mat')
 A = mat_data['A']
