@@ -20,7 +20,7 @@ m, n = G.shape
 plt.imshow(G, cmap='gray')
 plt.title('Image G')
 plt.imsave('./images_results/Image_G.jpg', G, cmap='gray')
-# plt.show()
+plt.show()
 
 # Compute the Singular Value Decomposition of A and B
 Ua, sa, Vha = linalg.svd(A)
@@ -53,7 +53,7 @@ for alpha in alpha_test:
     plt.imshow(F, cmap='gray')
     plt.title(f'Tikhonov Regularization, alpha = {alpha}')
     plt.imsave(f'./images_results/Tikhonov_alpha_{alpha}.jpg', F, cmap='gray')
-    # plt.show()
+    plt.show()
 
 
 
@@ -92,7 +92,7 @@ for p in pset:
     plt.title(f'TSVD p={p}')
     # Save the image to a file with the corresponding p value in the filename
     plt.imsave(f'./images_results/TSVD_p_{p}.jpg', F, cmap='gray')
-    # plt.show()
+    plt.show()
 
 
 
