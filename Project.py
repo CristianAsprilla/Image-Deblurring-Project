@@ -31,7 +31,7 @@ m, n = G.shape
 # Display the image
 plt.imshow(G, cmap='gray')
 plt.title('Image G')
-plt.imsave('./images_results/Image_G.png', G, cmap='gray')
+plt.imsave('./images_results/Image_G.jpg', G, cmap='gray')
 # plt.show()
 
 # Compute the Singular Value Decomposition of A and B
