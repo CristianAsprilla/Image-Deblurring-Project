@@ -15,14 +15,16 @@
 
 
 ### Mona Lisa Images:
-
+#### Original Image and Blurred Image:
 ![Original Image](./images_results/MonaLisa/gray_image.jpg) 
 ![Blurred Image](./images_results/MonaLisa/Image_G.jpg)
+#### Tikhnov Regularization:
 ![Tikhonov alpa=0.5](./images_results/MonaLisa/Tikhonov_alpha_0.5.jpg)
 ![Tikhonov alpa=0.25](./images_results/MonaLisa/Tikhonov_alpha_0.25.jpg)
 ![Tikhonov alpa=0.03125](./images_results/MonaLisa/Tikhonov_alpha_0.03125.jpg)
 ![Tikhonov alpa=0.00390625](./images_results/MonaLisa/Tikhonov_alpha_0.00390625.jpg)
 ![Tikhonov alpa=0.0009765625](./images_results/MonaLisa/Tikhonov_alpha_0.0009765625.jpg)
+#### TSVD:
 ![TSVD p=100](./images_results/MonaLisa/TSVD_p_100.jpg)
 ![TSVD p=1150](./images_results/MonaLisa/TSVD_p_1150.jpg)
 ![TSVD p=2900](./images_results/MonaLisa/TSVD_p_2900.jpg)
